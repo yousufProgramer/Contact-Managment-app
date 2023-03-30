@@ -1,0 +1,181 @@
+.header{
+    background: rgb(20, 19, 19);
+}
+.header-icon{
+    font-size: 2rem;
+    margin: 10px;
+   
+}
+.header h1{
+    color: aliceblue;
+}
+.header  span{
+    color: orange;
+}
+.header-btn{
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 600;
+}
+.teamImg{
+    width: 120px;
+    height: 120px;
+    margin-top: 1.5rem;
+}
+.icon-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-group{
+     margin-top: 8px;
+}
+.icon-body button{ 
+    border-radius: 10px;
+    margin: 2px;
+    color: aliceblue;
+    
+}
+.one{
+    background: yellow !important;
+    border: none;
+    font-size: 20px;
+}
+.two{
+    background: rgb(16, 36, 223);
+    border: none;
+    font-size: 20px;
+}
+.there{
+    background: red;
+    border: none;
+    font-size: 20px;
+}
+.header{
+    color: aliceblue;
+}
+.view-img{
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
+}
+.view{
+    background: rgb(133, 128, 128);
+    padding: 2rem 0rem;
+}
+.body{
+    justify-content: space-around;
+}
+.body-item{
+    /* background: rgb(158, 155, 155); */
+    color: aliceblue;
+    font-weight: bold;
+    width: 40%;
+   padding: 1rem;
+   margin: 1rem;
+}
+/* media quary */
+@media screen and (max-width: 820px) {
+    .header-icon{
+        margin: 1px 10px;
+    }
+    .paraghap{
+       font-size: 13px;
+       margin-top: 15px;
+    }
+    .search{
+        width: 70% !important;
+    }
+    .card-design{
+        width: 100% !important;
+    }
+    .teamImg{
+        width: 100px;
+        height: 100px;
+    }
+    .list-group{
+        margin-top: -10px;
+        justify-content: center;
+    }
+    .view{
+        background: rgb(133, 128, 128);
+        padding: 1rem 0rem;
+    }
+    .body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .view-img{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .body-item{
+     width: 100%;
+    text-align: center;
+    }
+    /* .one{
+        background: yellow !important;
+        border: none;
+        font-size: 10px;
+    }
+    .two{
+        background: rgb(16, 36, 223);
+        border: none;
+        font-size: 10px;
+    }
+    .there{
+        background: red;
+        border: none;
+        font-size: 10px;
+    } */
+
+
+  }
+  
+  
+  @media screen and (max-width: 460px) {
+    .header-icon{
+        margin: 1px 10px;
+    }
+    .paraghap{
+       font-size: 13px;
+       margin-top: 15px;
+    }
+    .search{
+        width: 70% !important;
+    }
+    .card-design{
+        width: 100% !important;
+    }
+    .teamImg{
+        width: 60px;
+        height: 60px;
+        margin: 50px 0px;
+    }
+    .list-group-item span{
+            font-size: 12px;
+    }
+    .list-group{
+        margin-top: -10px;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .one{
+        background: yellow !important;
+        border: none;
+        font-size: 13px;
+    }
+    .two{
+        background: rgb(16, 36, 223);
+        border: none;
+        font-size: 13px;
+    }
+    .there{
+        background: red;
+        border: none;
+        font-size: 13px;
+    }
+    
+  }
