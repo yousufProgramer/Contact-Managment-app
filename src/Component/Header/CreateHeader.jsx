@@ -1,6 +1,4 @@
 import React from 'react'
-
-import "./Style/Create.css"
 export const CreateHeader = () => {
   return (
     <div className='container'>

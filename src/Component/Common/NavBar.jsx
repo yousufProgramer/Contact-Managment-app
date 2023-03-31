@@ -1,6 +1,6 @@
 import React from 'react'
 import { FcBusinessContact } from 'react-icons/fc';
-import "./Style/Home.css"
+import "./Navbar.css"
 export const NavBar = () => {
   return (
     <div>

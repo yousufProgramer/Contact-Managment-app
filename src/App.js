@@ -1,28 +1,21 @@
-
-import { BrowserRouter, Route, Routes,Navigate} from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Home } from './Component/Home';
-import UserProvider from './Component/UserProvider'
-import { Create } from './Component/Create';
-import { View } from './Component/View';
-import { Edit } from './Component/Edit';
+import { HomePage } from './pages/Home';
+import { CreatePage } from './pages/Create';
+import { ViewPage } from './pages/View';
+import { EditPage } from './pages/Edit';
 function App() {
   return (
-    <div className="App"> 
-   <UserProvider>
-   <BrowserRouter>
-     <Routes>
-       <Route path='/' element ={<Home />}/>
-       <Route path='/create' element ={<Create />}/>
-       <Route path='/view/:id' element = {<View />}/>
-       <Route path='/edit/:id' element = {<Edit />}/>
-       {/* <Route path='/delete/:id' element = {<Delete />}/> */}
-       <Route path="*" element={<Navigate to="/" replace />} />
+    <div className="App">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/create" element={<CreatePage />} />
+          <Route path="/view/:id" element={<ViewPage />} />
+          <Route path="/edit/:id" element={<EditPage />} />
+          {/* <Route path='/delete/:id' element = {<Delete />}/> */}
+          {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
         </Routes>
-     </BrowserRouter>
-   </UserProvider>
-  
     </div>
   );
 }
